@@ -15,4 +15,4 @@ $zipper = new ZipperClass;
 $zipper->add_dir("files");
 
 //finally you can store files like this:-
-$zipper->store('files/zipped.zip');
+$zipper->store('files/'.time().'-zipped.zip');
